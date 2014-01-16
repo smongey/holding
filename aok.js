@@ -58,18 +58,18 @@ $(document).ready(function(){
 
 	});
 
-	setTimeout(function(){
+	// setTimeout(function(){
 
-		blink();
+	// 	blink();
 
-	}, 3000);
+	// }, 3000);
 
 
-	var blink = function(){
-		$('div.ay').animate({'height' : '0px'}, 25, function(){
-			$(this).delay(200).animate({'height' : '50px'}, 25);
-		});
-	};
+	// var blink = function(){
+	// 	$('div.ay').animate({'height' : '0px'}, 25, function(){
+	// 		$(this).delay(200).animate({'height' : '50px'}, 25);
+	// 	});
+	// };
 
 
 	$('div.ay').mouseover(function(){
